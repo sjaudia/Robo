@@ -1,0 +1,10 @@
+#parImg {
+	height: 600px;
+	background-image: url("../img/back1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 101%;
+	max-width: 1920px;
+	margin: -10px;
+	position: absolute;
+}

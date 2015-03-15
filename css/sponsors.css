@@ -1,0 +1,41 @@
+input[type="text"]{
+	width: 45%;
+	height: 35px;
+	display:inline-block;
+	font-size: 1em;
+}
+
+input[type="email"]{
+	width: 92%;
+	height: 35px;
+	display:inline-block;
+	font-size: 1em;
+}
+
+input[type="email"]:invalid {
+	background: #DD8989;
+}
+
+#spon_form {
+	float: left;
+	height: 100%;
+	width: 48%;
+	display: inline-block;
+	text-align: left;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+#don_form {
+	float: left;
+	height: 100%;
+	width: 48%;
+	display: inline-block;
+	text-align: left;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+#body {
+	width: 100%;
+}
