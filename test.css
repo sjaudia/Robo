@@ -1,0 +1,151 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	background: #F5F5F5;
+	height: 2000px;
+	overflow-x: hidden;
+	margin-bottom: 100px;
+}
+
+#boxed {
+	position: absolute;
+	right: 40px;
+	bottom: 100px;
+	font-size: 3em;
+	background: #FF7A00;
+	padding: 10px;
+}
+
+.navbar-fixed-top {
+	border-width: 0px;
+}
+
+#par_img {
+	height: 600px;
+	background-image: url("../img/back1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-top: 120px;
+}
+
+.contain-fluid {
+	background: #F5F5F5;
+}
+
+#head_nav a {
+	text-decoration: none;
+	color: white;
+}
+
+#head_nav ul {
+	text-align: left;
+	display: inline;
+	list-style: none;
+	padding: 17px;
+	margin: 2%;
+	margin-left: 40px;
+	bottom: 0px;
+	position: absolute;
+	opacity: 1;
+	color: #F5F5F5;
+}
+
+#head_nav ul li {
+	font-size: 1em;
+	position: relative;
+	padding: 15px 40px;
+	font: bold;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+  	-moz-transition: all 0.2s;
+  	-ms-transition: all 0.2s;
+  	-o-transition: all 0.2s;
+  	transition: all 0.2s;
+}
+
+#head_nav ul li:hover {
+	background: #FF7A00;
+	color: #3B3B3B;
+}
+
+#head_nav ul li ul {
+	position: absolute;
+	white-space: nowrap;
+	display: none;
+	visibility: hidden;
+	z-index: 1;
+	top: 30px;
+	left: -57px;
+}
+
+#head_nav ul li ul li {
+	display: block;
+	/*background: #C65F00;*//*Saving Color Value*/
+	background: #FF7A00;
+	color: #3B3B3B;
+}
+
+#head_nav ul li ul li:hover {
+	background: #FC9F49;
+}
+
+#head_nav ul li:hover ul {
+	display: block;
+	visibility: visible;
+}
+
+#head_img img {
+	cursor: pointer;
+	margin-left: 20px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#head_img {
+	background: #313131;
+	height: 120px;
+	color: white;
+}
+
+#head_nav {
+	background: #313131;
+	height: 120px;
+	color: ;
+}
+
+#head_img img {
+	cursor: pointer;
+	margin: 10px;
+	margin-left: 20px;
+	height: auto;
+	width: auto;
+	max-width: 500px;
+	max-height: 100px;
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	background: white;
+}
+
+@media screen and (max-width: 768px){
+
+	#head_nav{
+		display: none;
+	}
+
+	#head_img_row {
+		display: none;
+	}
+
+}

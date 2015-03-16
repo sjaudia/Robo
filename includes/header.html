@@ -1,18 +1,23 @@
-<div id="content"> <!--Here On Purpose; closed in footer-->
-			<div id="header">
-				<a href="/"><img src="img/MCDROBOwhite.png"></a>
+		<nav id="nav_bar" class="navbar navbar-default navbar-fixed-top">
+			<div class="row">
 
-				<ul>
+				
+				<div id="head_img" class="col-md-4">
+					<a href="/"><img src="img/MCDROBOwhite.png"></a>
+				</div>
+
+				<div id="head_nav" class="col-md-8">
+					<ul>
 					<a href="/"><li>Home</li></a>
 					<a href="first.php"><li>FIRST</li></a>
-					<li class="no_point">The Robot
+					<li class="no_point"><a href="robot.php">The Robot</a>
 						<ul>
-							<a href="robot.php?dest=RR"><li>Romulus/Remus</li></a>
-							<a href="robot.php?dest=Sid"><li>Sid</li></a>
-							<a href="robot.php?dest=Goose"><li>Goose</li></a>
+							<a href="robot.php#romulus"><li>Romulus/Remus</li></a>
+							<a href="robot.php#sid"><li>Sid</li></a>
+							<a href="robot.php#goose"><li>Goose</li></a>
 						</ul>
 					</li>
-					<li class="no_point">Sponsors
+					<li class="no_point"><a href="sponsor.php">Sponsors</a>
 						<ul>
 							<a href="sponsor.php?dest=curr"><li>Current Sponsors</li></a>
 							<a href="sponsor.php?dest=become"><li>Become a Sponsor</li></a>
@@ -21,4 +26,6 @@
 					<a href="about.php"><li>About Us</li></a>
 					<a href="media.php"><li>Media</li></a>
 				</ul>
+				</div>
 			</div>
+		</nav>

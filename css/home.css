@@ -1,10 +1,27 @@
-#parImg {
+#par_img {
 	height: 600px;
 	background-image: url("../img/back1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 101%;
-	max-width: 1920px;
-	margin: -10px;
+	width: 100%;
+	margin-top: 120px;
+}
+
+#boxed {
 	position: absolute;
+	right: 40px;
+	bottom: 100px;
+	font-size: 3em;
+	background: #FF7A00;
+	padding: 10px;
+}
+
+body {
+	height: 2000px;
+}
+
+@media screen and (max-width: 768px){
+	#head_img_row {
+		display: none;
+	}
 }

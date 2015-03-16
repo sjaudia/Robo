@@ -1,0 +1,42 @@
+body {
+	height: 100%;
+}
+
+.box_name {
+	position: absolute;
+	left: 40px;
+	bottom: 33%;
+	font-size: 2em;
+	background: #FF7A00;
+	padding: 10px;
+}
+
+.par_img {
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-top: 120px;
+	margin-bottom: 100px
+}
+
+#rom_pic {
+	background-image: url("../img/back1.jpg");
+}
+
+#sid_pic {
+	background-image: url("../img/back2.jpg");
+}
+
+#goose_pic {
+	background-image: url("../img/back3.jpg");
+}
+
+.containter-fluid .row {
+	margin-bottom: 50px;
+}
+
+.text {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
