@@ -16,7 +16,7 @@
 			include "includes/header.html";
 		?>
 
-			<div id="body">
+			<div class="container-fluid">
 
 				<?php
 					if ($_GET['dest'] == "curr"){

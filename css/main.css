@@ -10,7 +10,12 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	padding-bottom: 100px;
 	/*font-family: Futura, 'Trebuchet MS', Arial, sans-serif;*/
+}
+
+.top_buffer {
+	margin-top: 5%;
 }
 
 .page-header {
@@ -123,11 +128,32 @@ body {
 }*/
 
 footer {
+	top: 100;
 	height: 100px;
 	width: 100%;
 	bottom: 0;
 	position: absolute;
 	background: white;
+}
+
+@media screen and (min-width: 1925px){
+
+	#head_nav ul {
+		position: absolute;
+		right: 30px;
+		top: -1px;
+		font-size: 2em;
+	}
+
+	#head_nav ul li ul li {
+		width: 200%;
+		font-size: .5em;
+	}
+
+	#head_nav ul li ul {
+		top: 48px;
+	}
+
 }
 
 @media screen and (max-width: 768px){
@@ -159,6 +185,10 @@ footer {
 	@media screen and (min-width: 768px){
 		.page-header {
 			margin-top: 300px;
+		}
+
+		#head_nav ul li ul {
+			top: 25px;
 		}
 	}
 }

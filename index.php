@@ -24,10 +24,9 @@
 			include "includes/header.html";
 		?>
 
-			
 		<div class="container-fluid">
 			<div id="head_img_row" class='row'>
-				<div id="par_img" class="col-md-12" data-stellar-vertical-offset="-100" data-stellar-background-ratio=".5">
+				<div id="par_img" class="hidden-xs col-md-12" data-stellar-vertical-offset="-100" data-stellar-background-ratio=".5">
 					<div id="boxed">
 						McDonogh Robotics
 					</div>

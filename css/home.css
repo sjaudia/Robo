@@ -1,5 +1,5 @@
 #par_img {
-	height: 600px;
+	height: 900px;
 	background-image: url("../img/back1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,6 +19,8 @@
 body {
 	height: 2000px;
 }
+
+@media screen 
 
 @media screen and (max-width: 768px){
 	#head_img_row {
